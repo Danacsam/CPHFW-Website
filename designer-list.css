@@ -10,7 +10,7 @@
 
 
 body {
-   font-family: Arial, sans-serif;
+   font-family: 'Playfair Display', serif;
 }
 
 
@@ -24,7 +24,7 @@ header {
 
 
 header h1 {
-   background-color: #800000; /* Burgundy */
+   background-color: #680a08; /* Burgundy */
    color: white;
    padding: 10px 20px;
    font-family: 'Playfair Display', serif; /* Playfair Display font */

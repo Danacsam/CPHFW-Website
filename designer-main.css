@@ -7,7 +7,7 @@
   
   /* Body and overall page layout */
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;    
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
     align-items: center;
     font-size: 2em;
     color: white;
-    background-color: #800000; /* Burgundy color */
+    background-color: #680a08; /* Burgundy color */
     padding: 15px;
     font-weight: bold;
     width: 60%; /* Adjust width as needed (e.g., 80% of the page) */
@@ -85,7 +85,7 @@
   
   /* Hover effect on text */
   .brand-list li:hover, .highlight:hover {
-    color: #800000; /* Burgundy */
+    color: #680a08; /* Burgundy */
   }
   
   /* Footer Styling 

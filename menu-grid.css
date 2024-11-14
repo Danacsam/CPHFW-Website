@@ -6,11 +6,13 @@
 }
 
 body{
+    font-family: 'Playfair Display', serif;
     display:flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
     background-color: #ffffff;
+    overflow-y: hidden
 }
 
 .container {
@@ -30,7 +32,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     position: relative;
     right:350px;
@@ -50,7 +52,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     position: relative;
     top:-140px;
@@ -69,7 +71,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     position: relative;
     right: 145px;
@@ -88,7 +90,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     position: relative;
     bottom: 340px;
@@ -107,7 +109,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     position: relative;
     bottom: 300px;
@@ -126,7 +128,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     position: relative;
     bottom: 540px;
