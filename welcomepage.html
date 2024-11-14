@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Welcome Page</title>  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="front-head">
+        <h1> WELCOME  TO <br>
+        COPENHAGEN <br>
+        FASHION <br>
+        WEEK</h1>
+
+        </div>
+
+    <div class="second-front">
+        <h2>Fashion Awaits</h2>
+    </div>
+    
+    <div class="fbutton-div" onclick="window.location.href='frontpage.html'">
+            <button class=front-button>Let's Go!</button>
+        </div>
+
+    <div class="front-pic" onclick="showPopup2()">
+        <img src="pics/09 camera.png" alt="Image Camera">
+    </div>
+
+    <div class="front-pic-text">
+        <p>Take a Photo</p>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="popup2" class="popup2">
+        <div id="popup-content2" class="popup-content2">
+            <h1>Take a Photo</h1>
+            <video id="video" width="640" height="480" autoplay></video>
+            <button id="snap">Take Photo</button>
+            <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+            <!-- Placeholder for future calendar and video content -->
+        </div>
+    </div>
+    
+        <div id="photoContainer">
+            <h2>Our Current Spokesperson</h2>
+            <img id="photo" alt="Your photo will appear here">
+        </div>
+
+    <div class="footer-icons">
+        <i class="back" style="display:none;"><img src= "images/backarrow.png"  alt="back" width="50px" height="50px"></i>
+        <i class="home" style="display:none;"> <img src= "images/home.png" display="none" alt="home icon" width="50px" height="50px"> </i>
+        <i class="facebook"> <img src="images/facebook.png" alt="facebook" width="50px" height="50px"> </i>
+        <i class="youtube"> <img src= "images/youtube.png" alt= "youtube" width="50px" height="50px"> </i>
+        <i class="instagram"> <img src= "images/instagram.png" alt= "instagram" width="50px" height="50px"></i>
+    </div>    
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

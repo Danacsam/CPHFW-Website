@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+    <link rel="stylesheet" href="newsletter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="newsletter-header">
+        Newsletter
+    </div>
+    <div class="newsletter-container">
+        <h1>Sign Up</h1>
+        <p>
+            Copenhagen Fashion Week is delighted to present you with our newsletter. You know them and love them, but we’re also delivering all show and presentation images to your inbox through access to our image bank where you can download high-resolution images.
+        </p>
+        <form id="newsletter-form" onsubmit="showPopup(event)">
+            <div class="email-input-container">
+                <span class="icon">👤</span>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <button type="submit" class="signup-button">Sign Up</button>
+        </form>
+    </div>
+
+    <!--
+    <div class="footer-icons">
+        <i class="back"><img src= "images/images/backarrow.jpg" alt="back" width="50px" height="50px"></i> </i>
+        <i class="home"> <img src= "images/images/home.jpg" alt="home icon" width="50px" height="50px"> </i>
+        <i class="facebook"> <img src="images/images/facebook.jpg" alt="facebook" width="50px" height="50px"> </i>
+        <i class="youtube"> <img src= "images/images/youtube.jpg" alt= "youtube" width="50px" height="50px"> </i>
+        <i class="instagram"> <img src= "images/images/instagram.jpg" alt= "instagram" width="50px" height="50px"> </i>
+    </div>
+-->
+
+    <div class="footer-icons">
+        <i class="back" onclick="window.location.href='frontpage.html'"><img src= "images3/backarrow.jpg" alt="back" width="50px" height="50px"></i>
+        <i class="home" onclick="window.location.href='welcomepage.html'"> <img src= "images3/home.jpg" alt="home icon" width="50px" height="50px"> </i>
+        <i class="facebook"> <img src="images3/facebook.jpg" alt="facebook" width="50px" height="50px"> </i>
+        <i class="youtube"> <img src= "images3/youtube.jpg" alt= "youtube" width="50px" height="50px"> </i>
+        <i class="instagram"> <img src= "images3/instagram.jpg" alt= "instagram" width="50px" height="50px"></i>
+    </div>    
+
+
+        <!-- Popup Confirmation -->
+        <div id="popup" class="popup-container">
+            <p>You're in!</p>
+            <h2>Welcome to the fashion front row!</h2>
+            <p>Check your email</p>
+        </div>
+
+</body>
+
+
+<script src="newsletter.js"></script>
+</html>

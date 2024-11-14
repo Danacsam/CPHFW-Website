@@ -1,0 +1,71 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the container on the page */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center vertically */
+    margin: 0;
+  }
+  
+  /* Main container with border wrapping only the contents */
+  .error-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    padding: 70px; /* Increase padding for larger content area */
+    border: 3px solid #4d2c2c; /* Border around the container */
+    border-radius: 3px; /* Rounded corners */
+    text-align: center;
+    max-width: 90%; /* Limit width for a balanced layout */
+  }
+  
+  /* Styling the image to be large and responsive */
+  .error-image {
+    max-width: 100%; /* Allow image to take full width within container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 40px; /* Increase space between image and text */
+    border-radius: 8px; /* Optional: Rounded corners on the image */
+  }
+  
+  /* Enlarged text */
+  .error-text {
+    font-size: 3.5em; /* Increase font size */
+    color: #4d2c2c;
+    margin-bottom: 40px; /* Space between text and button */
+  }
+  
+  /* Large back button centered */
+  .back-button {
+    display: inline-block;
+    padding: 30px 60px; /* Increase padding for bigger button */
+    background-color: #4d2c2c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 2.5em; /* Increase button text size */
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #7b4444; /* Slightly lighter color on hover */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .error-text {
+      font-size: 3em;
+    }
+    .back-button {
+      font-size: 2em;
+      padding: 20px 40px;
+    }
+  }
+  

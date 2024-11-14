@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error Page</title>
+  <link rel="stylesheet" href="error.css">
+</head>
+<body>
+  <div class="error-container">
+    <!-- Image for error indication -->
+    <img src="champagne.png" alt="Spilled glass" class="error-image">
+    
+    <!-- Error message -->
+    <div class="error-text">Whoops, looks like someone dropped their glass!</div>
+    
+    <!-- Back Home button with JavaScript function -->
+    <a href="javascript:void(0);" onclick="goBack()" class="back-button">Back Home</a>
+  </div>
+
+  <!-- JavaScript function to go back one step in browser history -->
+  <script>
+    function goBack() {
+      history.back();
+    }
+  </script>
+</body>
+</html>

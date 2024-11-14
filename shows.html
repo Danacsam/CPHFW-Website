@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPHFW Runway Shows</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="top" class="header-box">
+        <div class="box-text">
+            <h1>Shows</h1>
+        </div>
+    </header>
+
+    <div class="carousel">
+        <div class="carousel-item" onclick="showPopup('KH3ML2quJ3A')">
+            <img src="pics/01 nicklas skovgaard.jpg" alt="Image 1">
+            <div class="caption">
+                <p>Nicklas Skovgaard</p>
+                <p>Mon 3:00 Pm</p>
+                <p>City Hall</p>
+            </div>
+        </div>
+        <div class="carousel-item" onclick="showPopup('0nDnWTEwu8Y')">
+            <img src="pics/02 alectrarothschild_masculina-ss25-scaled.jpg" alt="Image 2">
+            <div class="caption">
+                <p>Alectra Rothschild</p>
+                <p>Mon 4:00 Pm</p>
+                <p>City Hall</p>
+            </div>
+        </div>
+        <div class="carousel-item" onclick="showPopup('A5PKwAUvT50')">
+            <img src="pics/03 ss25-copenhagen-fashion-week-forza-collective-runway-2x3-james-cochrane-1-683x1024.jpg" alt="Image 3">
+            <div class="caption">
+                <p>Forza Collective</p>
+                <p>Mon 5:00 Pm</p>
+                <p>City Hall</p>
+            </div>
+        </div>
+        <div class="carousel-item" onclick="showPopup('b6_dL8ISK_4')">
+            <img src="pics/04 won-hundred-ss25-6-683x1024.jpg" alt="Image 4">
+            <div class="caption">
+                <p>Won Hundred</p>
+                <p>Mon 6:00 Pm</p>
+                <p>City Hall</p>
+            </div>
+        </div>
+        <div class="carousel-item" onclick="showPopup('m1i00QHCe9w')">
+            <img src="pics/07 Untitled design.jpg" alt="Image 5">
+            <div class="caption">
+                <p>Saks Potts</p>
+                <p>Mon 7:00 Pm</p>
+                <p>City Hall</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup -->
+    <div id="popup" class="popup">
+        <div id="popup-content" class="popup-content">
+            
+        </div>
+    </div>
+
+    <div class="calendar">
+        <!-- Weekday Headers -->
+        <div class="day">Mo</div>
+        <div class="day">Tu</div>
+        <div class="day">We</div>
+        <div class="day">Th</div>
+        <div class="day">Fr</div>
+        
+        <!-- Dates -->
+        <div class="date" onclick="window.location.href='calendar.html'">27</div>
+        <div class="date" onclick="window.location.href='calendar.html'">28</div>
+        <div class="date" onclick="window.location.href='calendar.html'">29</div>
+        <div class="date" onclick="window.location.href='calendar.html'">30</div>
+        <div class="date" onclick="window.location.href='error.html'">31</div>
+    </div>
+
+    <div class="footer-icons">
+        <i class="back" onclick="window.location.href='frontpage.html'"><img src= "images/backarrow.png" alt="back" width="50px" height="50px"></i>
+        <i class="home" onclick="window.location.href='welcomepage.html'"> <img src= "images/home.png" alt="home icon" width="50px" height="50px"> </i>
+        <i class="facebook"> <img src="images/facebook.png" alt="facebook" width="50px" height="50px"> </i>
+        <i class="youtube"> <img src= "images/youtube.png" alt= "youtube" width="50px" height="50px"> </i>
+        <i class="instagram"> <img src= "images/instagram.png" alt= "instagram" width="50px" height="50px"></i>
+    </div>    
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
